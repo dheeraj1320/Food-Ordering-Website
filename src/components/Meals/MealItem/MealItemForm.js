@@ -2,6 +2,8 @@ import Input from "../../UI/Input";
 import classes from "./MealItemForm.module.css";
 
 const MealItemForm = (props) => {
+  const ctx = useContext(contextValue);
+
   return (
     <form className={classes.form}>
       <Input
