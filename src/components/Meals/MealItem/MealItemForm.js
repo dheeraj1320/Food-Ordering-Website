@@ -13,6 +13,8 @@ const MealItemForm = (props) => {
     const enteredAmount = amountInputRef.current.value;
     const enteredAmountNumber = +enteredAmount;
 
+    // console.log(enteredAmount, enteredAmountNumber);
+
     if (
       enteredAmount.trim().length === 0 ||
       enteredAmountNumber < 1 ||
